@@ -14,8 +14,8 @@ public class JogaJogoDaVelha {
             JogoDaVelha jogo = new JogoDaVelha(dimensao);
             int i, j;
             while (jogo.vencedor() == 2) {
-                i = random.nextInt(3);
-                j = random.nextInt(3);
+                i = random.nextInt(dimensao);
+                j = random.nextInt(dimensao);
                 try {
                     jogo.poePeca(i, j);
                 } catch (IllegalArgumentException e) {
