@@ -9,6 +9,7 @@ public class JogoDaVelha {
         tabuleiro = new int[dimensao][dimensao];
         limpaTabuleiro();
         this.dimensao = dimensao;
+        
     }
 
     public void limpaTabuleiro() {
